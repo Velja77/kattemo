@@ -1,6 +1,10 @@
 body {
+<<<<<<< Updated upstream
     background-image: url("image/Screenshot\ 2024-01-17\ 101452.png");
     
+=======
+    margin: 0;
+>>>>>>> Stashed changes
 }
 
 p {
@@ -14,10 +18,22 @@ p {
 }
 
 .header {
-    background-color: rgb(73, 70, 70);
+    background-color: rgb(62, 62, 62);
     width: 100%;
     height: 47px;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.bar {
+    color: rgb(198, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 5vh;
+}
+
+a {
+    margin: 15vw;
+    text-decoration: none;
+    color: rgb(255, 52, 52);
 }
